@@ -1,16 +1,37 @@
 body {
     background: lightblue;
-    padding: 10px;
+    padding: 0px 10px 10px 10px; 
+    width: 100%;
 }
 
 header {
+    border: solid 3px teal;
+    margin-top: none;
+    width: 1150px;
+    padding: 10px;
+    height: 100px;
+}
+
+#headerTitleDiv {
+    float: left;
+}
+
+#formDiv {
+    float: right;
+}
+
+/* h1 {
     font-size: 40px;
     color: teal;
-}
+} */
 
 .container {
     width: 1500px;
 }
+
+/* .formContainer {
+    float: right;
+} */
 
 #userProfile {
     border: solid 3px;
