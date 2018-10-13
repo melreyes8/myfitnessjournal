@@ -1,79 +1,123 @@
 body {
-    background: lightblue;
-    padding: 0px 10px 10px 10px; 
-    width: 100%;
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 0px 10px 10px 10px;  */
+    /* width: 100%; */
 }
 
 header {
-    border: solid 3px teal;
-    margin-top: none;
-    width: 1150px;
+    /* border: solid 3px teal; */
+    /* margin-top: none; */
+    /* width: 1150px; */
+    /* padding: 10px; */
+    height: 40px;;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px gray;
     padding: 10px;
-    height: 100px;
+    margin-bottom: 20px;
+    background: rgb(18, 63, 148); 
+    background: linear-gradient(rgb(38, 108, 248), rgb(10, 10, 40));    
+    border-bottom: solid 10px white;
+    border-style: double;
 }
+
+footer {
+    text-align: center;
+    text-align: bottom; 
+    background: rgb(18, 63, 148); 
+    background: linear-gradient(rgb(38, 108, 248), rgb(10, 10, 40));    
+    border-top: solid 10px white;
+    border-style: double;
+    /* border-top: 8px #4aaaa5 solid; */
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 10px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    /* position: fixed; */
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    clear: both;
+    /* margin-top: 20px; */
+} 
 
 #headerTitleDiv {
     float: left;
+    font-size: 35px;
 }
 
 #formDiv {
     float: right;
+    font-size: 15px;
 }
 
-/* h1 {
-    font-size: 40px;
-    color: teal;
-} */
-
-.container {
-    width: 1500px;
+.wrapper {
+    margin: 8px;
 }
 
-/* .formContainer {
-    float: right;
-} */
+.divSection {
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+    padding: 5px;
+    float: left;
+}
 
-#userProfile {
+.boxTitle {
+    font-weight: bold;
+}
+
+#profilePhoto {
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+    float: left;
+    /* box-sizing: border-box; */
+}
+
+#profileInfo {
+    /* border: solid 2px; */
+    float: left;
+    margin-left: 10px;
+    /* line-height: 1.6; */
+}
+
+#userProfileDiv {
     border: solid 3px;
     width: 600px;
     height: 300px;
     font-size: 20px;
     padding-left: 10px;
-}
-
-#userVideos {
-    border: solid 3px;
-    width: 600px;
-    height: 100%;
-    font-size: 20px;  
-    margin-top: 10px;
-    padding-left: 10px;
+    float: left;
     overflow: scroll;
 }
 
-#userImages {
+#fitMetricDiv {
     border: solid 3px;
     width: 600px;
-    height: auto;
-    font-size: 20px;  
-    margin-top: 10px;
-    margin-left: 10px;
-    padding-left: 10px;
-    overflow: scroll;
-    /* float: left;  */
-}
-
-#fitMetric {
-    border: solid 3px;
-    width: 600px;
-    height: auto;
+    height: 300px;
     font-size: 20px;  
     margin-left: 10px;
     padding-left: 10px;
+    float: left;
     /* overflow: scroll; */
 }
 
-#journalNotes {
+#fitCommunityDiv {
+    border: solid 3px;
+    width: 280px;
+    height: 300px;
+    font-size: 20px;  
+    margin-left: 10px;
+    padding-left: 10px;
+    float: left;
+    overflow: scroll;
+}
+
+#journalNotesDiv {
     border: solid 3px;
     width: 600px;
     height: 600px;
@@ -81,17 +125,43 @@ header {
     margin-top: 10px;
     padding-left: 10px;
     overflow: scroll;
+    float: left;
 }
 
-#nutritionImages {
+#userVideosDiv {
+    border: solid 3px;
+    width: 600px;
+    height: 600px;
+    font-size: 20px;
+    margin-left: 10px;  
+    margin-top: 10px;
+    padding-left: 10px;
+    overflow: scroll;
+}
+
+#userImagesDiv {
     border: solid 3px;
     width: 600px;
     height: auto;
     font-size: 20px;  
     margin-top: 10px;
+    /* margin-left: 10px; */
+    padding-left: 10px;
+    overflow: scroll;
+    float: left; 
+}
+
+
+#nutritionImagesDiv {
+    border: solid 3px;
+    width: 600px;
+    height: 100%;
+    font-size: 20px;  
+    margin-top: 10px;
     margin-left: 10px;
     padding-left: 10px;
     overflow: scroll;
+    float: left;
 }
 
 #chart {
@@ -107,8 +177,22 @@ img {
 }
 
 iframe {
-    height: 50%;
-    width: 50%;
-    float: left;
+    height: 250px;
+    width: 250px;
+    /* float: none; */
     padding: 3px;
+    display: inline-block;
 }
+
+h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px gray;
+}
+
+p {
+    font-size: 15px;
+    width: auto;
+    line-height: 1.6;
+}
+
