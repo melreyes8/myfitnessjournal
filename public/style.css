@@ -1,7 +1,11 @@
 body {
-    background: lightgray;
+    background-image: url("https://wallpaper-house.com/data/out/10/wallpaper2you_424789.jpg");
     font-family: Arial, Helvetica, sans-serif;
-    /* padding: 0px 10px 10px 10px;  */
+    background-repeat:no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+    /* background-position: center; */
+    padding-left: 20px; 
     /* width: 100%; */
 }
 
@@ -10,7 +14,8 @@ header {
     /* margin-top: none; */
     /* width: 1150px; */
     /* padding: 10px; */
-    height: 40px;;
+    height: 40px;
+    margin-left: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -18,21 +23,20 @@ header {
     text-shadow: 2px 2px gray;
     padding: 10px;
     margin-bottom: 20px;
-    background: rgb(18, 63, 148); 
     background: linear-gradient(rgb(38, 108, 248), rgb(10, 10, 40));    
     border-bottom: solid 10px white;
     border-style: double;
+    /* position: ?; */
 }
 
 footer {
     text-align: center;
     text-align: bottom; 
-    background: rgb(18, 63, 148); 
     background: linear-gradient(rgb(38, 108, 248), rgb(10, 10, 40));    
     border-top: solid 10px white;
     border-style: double;
     /* border-top: 8px #4aaaa5 solid; */
-    color: lightgray;
+    color: white;
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 10px;
     padding-top: 30px;
@@ -43,6 +47,7 @@ footer {
     bottom: 0;
     clear: both;
     /* margin-top: 20px; */
+    margin-left: 15px;
 } 
 
 #headerTitleDiv {
@@ -62,11 +67,14 @@ footer {
 .divSection {
     /* font-size: 20px; */
     /* font-weight: bold; */
-    padding: 5px;
+    /* padding: 5px; */
+    border: solid 3px lightslategray;
     float: left;
+    margin: 5px;
+    background: white;
 }
 
-.boxTitle {
+.section-title {
     font-weight: bold;
 }
 
@@ -86,80 +94,60 @@ footer {
 }
 
 #userProfileDiv {
-    border: solid 3px;
     width: 600px;
     height: 300px;
     font-size: 20px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
     float: left;
     overflow: scroll;
 }
 
 #fitMetricDiv {
-    border: solid 3px;
     width: 600px;
     height: 300px;
     font-size: 20px;  
-    margin-left: 10px;
-    padding-left: 10px;
     float: left;
     /* overflow: scroll; */
 }
 
 #fitCommunityDiv {
-    border: solid 3px;
-    width: 280px;
+    width: 270px;
     height: 300px;
     font-size: 20px;  
-    margin-left: 10px;
-    padding-left: 10px;
     float: left;
     overflow: scroll;
 }
 
 #journalNotesDiv {
-    border: solid 3px;
     width: 600px;
     height: 600px;
     font-size: 20px;  
-    margin-top: 10px;
-    padding-left: 10px;
+    /* margin-top: 10px; */
+    /* padding-left: 10px; */
     overflow: scroll;
     float: left;
 }
 
 #userVideosDiv {
-    border: solid 3px;
     width: 600px;
     height: 600px;
     font-size: 20px;
-    margin-left: 10px;  
-    margin-top: 10px;
-    padding-left: 10px;
     overflow: scroll;
 }
 
 #userImagesDiv {
-    border: solid 3px;
     width: 600px;
     height: auto;
     font-size: 20px;  
-    margin-top: 10px;
-    /* margin-left: 10px; */
-    padding-left: 10px;
     overflow: scroll;
     float: left; 
 }
 
 
 #nutritionImagesDiv {
-    border: solid 3px;
     width: 600px;
-    height: 100%;
+    height: auto;
     font-size: 20px;  
-    margin-top: 10px;
-    margin-left: 10px;
-    padding-left: 10px;
     overflow: scroll;
     float: left;
 }
@@ -187,12 +175,51 @@ iframe {
 h2 {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 2px 2px gray;
+    /* text-shadow: 2px 2px gray; */
 }
 
-p {
+p, tr {
     font-size: 15px;
     width: auto;
     line-height: 1.6;
 }
 
+.section-header-div {
+    /* width: inherit; */
+    /* margin: none; */
+    /* position: absolute; */
+    /* position: relative; */
+    height: 20px;
+    padding: 10px;
+    background: lightblue;
+}
+
+.search-field-section{
+    float: right;
+    
+}
+
+.section-content-div {
+    margin: 10px;
+}
+
+.section-title-div {
+    float: left;
+    width: auto;
+}
+
+tr, th {
+    border: solid 2px lightgray;
+    text-align: left;
+    padding: 1px;
+
+}
+
+#journal-title {
+    width: 100px;
+    font-weight: bold;
+}
+
+#journal-texts {
+    width: 400px;
+}
