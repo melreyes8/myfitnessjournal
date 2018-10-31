@@ -83,6 +83,7 @@ footer {
     width: 200px;
     margin-right: 10px;
     float: left;
+    border: solid 1px lightgray;
     /* box-sizing: border-box; */
 }
 
@@ -137,7 +138,7 @@ footer {
 
 #userImagesDiv {
     width: 600px;
-    height: auto;
+    height: 600px;
     font-size: 20px;  
     overflow: scroll;
     float: left; 
@@ -146,7 +147,7 @@ footer {
 
 #nutritionImagesDiv {
     width: 600px;
-    height: auto;
+    height: 600px;
     font-size: 20px;  
     overflow: scroll;
     float: left;
@@ -161,7 +162,7 @@ footer {
 img {
     width: 250px;
     height: 250px;
-    padding: 3px;
+    /* padding: 3px; */
 }
 
 iframe {
